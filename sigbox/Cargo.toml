@@ -1,0 +1,7 @@
+[package]
+name = "sigbox"
+version = "0.1.0"
+edition = "2024"
+description = "A tool used to pack and unpack Guard signatures."
+
+[dependencies]

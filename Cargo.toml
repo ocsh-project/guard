@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "libsigbox",
+    "sigbox",
+    "wchd", "wchod",
+]
+resolver = "1"

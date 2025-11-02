@@ -1,0 +1,13 @@
+[package]
+name = "libsigbox"
+version = "0.1.0"
+edition = "2024"
+description = "A library to pack and unpack Guard signatures."
+
+[dependencies]
+bincode = "2.0.1"
+md-5 = "0.10.6"
+serde = { version = "1.0.228", features = ["derive"] }
+sha1 = "0.10.6"
+sha2 = "0.10.9"
+yara-x = "1.8.1"
